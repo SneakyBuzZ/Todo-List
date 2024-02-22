@@ -35,7 +35,7 @@ function App() {
   }, [todos])
 
   return (
-    <TodoProvider value={{ todos, addTodo, editTodo, deleteTodo, completeTodo }}>
+    <TodoProvider value={{ addTodo, deleteTodo, editTodo, completeTodo }}>
       <div className="container w-full bg-gray-800 h-lvh flex justify-center ">
         <div className="todoContainer bg-stone-200 h-96 w-5/12 p-3 my-36 rounded-2xl ">
           <div className="todoForm h-12  rounded-xl">
